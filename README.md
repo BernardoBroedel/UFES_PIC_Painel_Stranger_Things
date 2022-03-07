@@ -1,14 +1,42 @@
 # Painel Stranger Things
+UNIVERSIDADE FEDERAL DO ESPIRITO SANTO
+ENGENHARIA DE COMPUTAÇÃO
+PROJETO INTEGRADOR I
+## Grupo
 
-## Grupos
+Athila Archanji Rodrigues
 
-Athila
+Bernardo Vargens Broedel
 
-Bernardo
-## Descrição
+## Resumo
 
-Projeto 
+Com o objetivo de aplicar os conhecimentos adquiridos durante a disciplina de Projeto Integrador I, foi desenvolvido pelos alunos Athila e Bernardo, um projeto que recebe uma mensagem do usuario atraves de um aplicativo de celular, que com o auxilio do Modulo Bluetooth, envia para o arduino que é responsavel por acender determinados LED's de acordo com as letras da mensagem enviada.
 
-## Esquematico
+## Materiais
 
-<img src="./img/circuito.png">
+- 1 Arduino UNO
+- 1 Módulo Bluetooth HC-05
+- 3 Circuito integrado 74HC595
+- 26 Resistores 470 Ohm
+- 26 LED's variados
+- Jumpers Macho Macho
+- Jumpers Macho Femea
+
+## Esquemático
+
+<img src="./img/esquematico.png">
+<img src="./img/bluetooth.png">
+
+## Codigo
+
+Codigo do arduino pode ser acessado dentro da pasta 'SRC' com nome de 'prog.ino'
+
+## Aplicativo
+
+O aplicativo pode ser acessado dentro da pasta 'SRC' com nome de 'aplicativo.aia'
+
+## Utilizar
+
+Para testar o projeto, basta seguir os passos demonstrados no video
+
+## Video
