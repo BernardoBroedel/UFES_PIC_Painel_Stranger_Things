@@ -40,3 +40,18 @@ O aplicativo pode ser acessado dentro da pasta 'SRC' com nome de 'aplicativo.aia
 Para testar o projeto, basta seguir os passos demonstrados no video
 
 ## Video
+
+https://www.youtube.com/watch?v=e4kC7BBC4oI
+
+## 74HC595
+
+Ele é um circuito integrado, para adicionar 8 portas a cada circuito integrado a partir de 3 portas
+
+<img src="./img/74hc595.png">
+
+## MONTAGEM
+
+<img src="./img/montagem_1.png">
+<img src="./img/montagem_2.png">
+<img src="./img/montagem_3.png">
+<img src="./img/montagem_4.png">
