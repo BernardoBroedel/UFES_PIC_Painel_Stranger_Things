@@ -47,11 +47,11 @@ https://www.youtube.com/watch?v=e4kC7BBC4oI
 
 Ele é um circuito integrado, para adicionar 8 portas a cada circuito integrado a partir de 3 portas
 
-<img src="./img/74hc595.png">
+<img src="./img/74hc595.PNG">
 
 ## MONTAGEM
 
-<img src="./img/montagem_1.png">
-<img src="./img/montagem_2.png">
-<img src="./img/montagem_3.png">
-<img src="./img/montagem_4.png">
+<img src="./img/montagem_1.jpg">
+<img src="./img/montagem_2.jpg">
+<img src="./img/montagem_3.jpg">
+<img src="./img/montagem_4.jpg">
