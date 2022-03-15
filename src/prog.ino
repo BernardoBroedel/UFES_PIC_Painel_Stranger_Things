@@ -4,7 +4,7 @@ int pinClock = 11;
 int y = 2;
 int z = 3;
 
-#define TEMPO 200
+#define TEMPO 1000
 
 String text; //string para receber o texto
 
