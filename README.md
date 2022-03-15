@@ -15,12 +15,18 @@ Com o objetivo de aplicar os conhecimentos adquiridos durante a disciplina de Pr
 ## Descrição
 
 Aplicando os conhecimentos adquiridos durante a disciplina de Projeto Integrador I, foi desenvolvido pelos alunos Athila e Bernardo, um projeto que ao receber uma mensagem do usuario atraves de um aplicativo de celular, faz piscar os LED, que estão no painel, de cada letra da mensagem enviada.
+
 Cada LED é controlado atraves das portas, como existem 2 letras no alfabeto, foi preciso pensar em uma maneira de ampliar essas portas. Com o auxilio do circuito integrado 74HC595, que a partir de 3 portas, consegue expandir para 8 portas, ou seja, a cada circuito integrado, utilizando apenas 3 portas do Arduino Uno, conseguimos expandir para 8.
 Utilizamos 3 circuitos integrados 74HC595, para que, a partir dessas 3 portas, expandimos para 24 portas, que foram controladas de forma individual.
+
 Funcionando como uma matriz. No codigo, para acessar a porta logica, enviamos o valor da porta. Por exemplo, para acessar a primeira porta na ordem, enviamos (128,0,0) com isso recebemos a 'coordenada' daquela porta.
+
 Para as outras portas, segue o mesmo padrão. Começando em 128, e sempre dividindo por 2, ate chegar no 1. com isso temos 8 portas. 128,64,32,16,84,8,2,1. Para acessar os outros circuitos integrados, basta mudar a posição. Por exemplo, (0,128,0) e assim por diante.
+
 Com isso, montamos um sistema de IF e ELSE para manipular essas portas. Restando 2 letras para controlar todas as 26 letras do alfabeto, e como são apenas duas que falta, utilizamos 2 portas diretamente do arduino para isso.
+
 E para receber a mensagem do usuario, utilizamos do Modulo Bluetooth HC-05. Com isso, desenvolvemos tambem um aplicativo simples feito no APP Inventor, mas tambem funcionaria com aplicativos ja prontos que possuam um terminal Bluetooth.
+
 A maior dificuldade se deu na pratica, foram muitos Jumpers utilizados, e para facilitar, utilizamos 2 protoboards para realizar as ligações de maneira mais simples.
 
 ## Materiais
