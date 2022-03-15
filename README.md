@@ -8,10 +8,6 @@ Athila Archanji Rodrigues
 
 Bernardo Vargens Broedel
 
-## Resumo
-
-Com o objetivo de aplicar os conhecimentos adquiridos durante a disciplina de Projeto Integrador I, foi desenvolvido pelos alunos Athila e Bernardo, um projeto que recebe uma mensagem do usuario atraves de um aplicativo de celular, que com o auxilio do Modulo Bluetooth, envia para o arduino que é responsavel por acender determinados LED's de acordo com as letras da mensagem enviada.
-
 ## Descrição
 
 Aplicando os conhecimentos adquiridos durante a disciplina de Projeto Integrador I, foi desenvolvido pelos alunos Athila e Bernardo, um projeto que ao receber uma mensagem do usuario atraves de um aplicativo de celular, faz piscar os LED, que estão no painel, de cada letra da mensagem enviada.
